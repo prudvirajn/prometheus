@@ -83,10 +83,12 @@ ExecStart=/opt/node_exporter/node_exporter
 WantedBy=multi-user.target
 
 ```
+```
 systemctl restart node_exporter
 ```
 ```
 systemctl enable node_exporter
+```
 ```
 systemctl status node_exporter
 ```
